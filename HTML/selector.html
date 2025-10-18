@@ -5,33 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>selector</title>
     <style>
-          <!--universalelector-->
+        /*Universal selector*/
         *{
-            color: green;
+            color: rgb(0, 128, 32);
         }
-        <!--classselector-->
+        /*class selector*/
         .name{
             color:red;
         }
-        #par{
+        /*id selector*/
+        #par{ 
             color:aqua;
         }
-          <!--idselector-->
-        #par2{
-            color: yellow;
-        }
-        <!--groupselector-->
+       /*group selector*/
         h2,h3{  
             color:orange;
         }
+        /*Desecendant selector*/
+       div p{
+        color: red;
+       }
        
+        /*child selector*/
+       div>p{
+        color: rgb(221, 111, 9);
+       }
+       /*Adjacent Sibling*/
+       h4+p{
+        color:pink;
+       }
+       /*General sibling*/
+       h5~p{
+       color:magenta;
+       }  
     </style>
 </head>
 <body>
+    
     <h1 class="name">Hello</h1>
     <p id="par">Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc.</p>
     <p >In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116).</p>
 <h2>Hello</h2>
 <h3>Hello</h3>
+<div>
+    <p >Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc.</p>
+    <p >In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116).</p>
+<seaction>
+    <p >Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc.</p>
+    <p >In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116).</p>
+
+</seaction>
+
+</div>
+<h4>BTS</h4>
+<p>welcome army</p>
+<h5>Happy Brithday</h5>
+ <p >Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc.</p>
+    <p >In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116).</p>
+    <p >Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc.</p>
+    <p >In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116).</p>
+
 </body>
 </html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlueLeaf UI</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: rgb(236,231,231);
+    }
+
+    /* 🔹 Header full width + fixed top style */
+    .header {
+      background-color: white;
+      border-radius: 0;        /* full width, no rounded edge */
+      width: 100%;             /* full width */
+      height: 15vh;            /* top section height */
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 50px;         /* space between left-right content */
+      box-sizing: border-box;
+    }
+
+    h1 {
+      color: blue;
+      margin: 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: rgb(134, 132, 132);
+      margin-left: 40px;
+      font-size: 16px;
+    }
+
+    #get {
+      color: blue;
+      border: 2px solid blue;
+      border-radius: 20px;
+      padding: 10px 25px;
+    }
+
+    /* 🔹 Hero section */
+    .hero {
+      background-color: #EDF2FA;
+      width: 100%;
+      height: 100vh;
+      padding: 50px;
+      box-sizing: border-box;
+    }
+
+    h2 {
+      font-size: 33px;
+      word-spacing: 13px;
+    }
+
+    p {
+      color: #64748B;
+      word-spacing: 13px;
+    }
+
+    #get1 {
+      background-color: #2563EB;
+      color: white;
+      border: 2px solid #2563EB;
+      border-radius: 20px;
+      padding: 15px 40px;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    #get2 {
+      color: black;
+      border: 1px solid rgb(226, 225, 225);
+      border-radius: 20px;
+      padding: 15px 40px;
+      text-decoration: none;
+      display: inline-block;
+      margin-left: 15px;
+      background-color: white;
+    }
+
+    .right-box {
+      background-color: white;
+      border-radius: 20px;
+      width: 530px;
+      height: 310px;
+      float: right;
+      margin: 50px;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🔹 Header -->
+  <div class="header">
+    <h1>BlueLeaf UI</h1>
+    <nav>
+      <a href="#">Docs</a>
+      <a href="#">Components</a>
+      <a href="#">Pricing</a>
+      <a id="get" href="#"><b>Get Started</b></a>
+    </nav>
+  </div>
+
+  <!-- 🔹 Hero Section -->
+  <div class="hero">
+    <div class="right-box">
+      <h3 style="text-align: center;">Getting started</h3>
+      <p>copy this HTML to begin customizing--all essential<br>
+         compents in one page.</p>
+      <p><b>Tip:</b> Use media queries to adapt floats on smaller screens.</p>
+      <a id="get1" href="#"><b>Download</b></a>
+    </div>
+
+    <h2>Beautiful components without modern layout<br> module</h2>
+    <p>A demonstration UI without CSS Grid, Flexbox, animation, or CSS positioning--relies on<br>
+       float, inline-block and classic responsive techniques.</p>
+    <a id="get1" href="#"><b>Start a project</b></a>
+    <a id="get2" href="#"><b>Explore Samples</b></a>
+  </div>
+
+</body>
+</html>

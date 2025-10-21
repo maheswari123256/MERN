@@ -1,0 +1,25 @@
+#div1{
+    column-count: 4;
+    padding: 40px;
+    margin-top: 0px;
+    background-color: rgb(135, 234, 135);
+    height: 8px;
+    width:100%;
+}
+#hed1{
+    padding: 0px;
+    margin: 0px;
+}
+#div2{
+    margin: 0px;
+    padding: 40px;
+    column-count: 4;
+    background-color: rgb(193, 237, 247);
+    height: 600px;
+    width: 100%;
+}
+div{
+  display:inline-block;
+  padding:0px;
+  margin:0px;
+}

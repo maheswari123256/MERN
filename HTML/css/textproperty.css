@@ -1,0 +1,27 @@
+div{
+    
+    box-shadow:4px 4px 10px rgb(245, 3, 3);
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    line-height: 5.5;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-shadow: 4px 4px 5px rebeccapurple;/*shadow behind text*/
+
+}
+#par{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    line-height: 5.5;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-shadow: 4px 4px 5px rgb(100, 153, 51);/*shadow behind text*/
+}

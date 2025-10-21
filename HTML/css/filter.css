@@ -1,0 +1,8 @@
+img{
+    filter: blur(5px);
+    filter: brightness(1.2);
+    filter: drop-shadow(5px  5px 10px red);/*make shadow around the shap of the image*/
+}
+#img1{
+    filter: grayscale(100%);/*change imge block and white*/
+}

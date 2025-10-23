@@ -1,0 +1,190 @@
+ body{
+            background-image: url(asset/img/rm456-010.jpg);
+            background-size: cover;
+           transform: scale(0.9); /* shrinks content slightly */
+  transform-origin: top left;
+
+        }
+        nav{
+             display: flex;
+            flex-direction: row;
+            margin: 45px;
+          
+        }
+    #icon{
+       
+    
+     width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 800%;
+    margin: 0px;
+    
+
+      }
+     
+      #home{
+          text-indent: 200%;
+
+      }
+      #about{
+ text-indent: 400%;
+ text-decoration: none;
+
+      }
+      #protfolio{
+ text-indent: 350%;
+  text-decoration: none;
+
+      }
+      #services{
+        text-indent: 500%;
+         text-decoration: none;
+      }
+     #anc{
+        text-indent: 650%;
+         text-decoration: none;
+     }
+     #contact{
+         text-indent: 750%;
+          text-decoration: none;
+     }
+     #face{
+         text-indent: 1900%;
+     }
+     #twiter{
+         text-indent: 2000%;
+     }
+     #youtube{
+         text-indent: 2100%;
+     }
+   .image-fixed {
+      position: absolute;
+      right: 15%;
+      top: 25%;
+      filter: drop-shadow(-90px -30px 10px rgba(128, 0, 128, 0.6));
+      width: 40%;
+      height: auto;
+      border-radius: 10px;
+      z-index: 1; /* keeps image behind */
+     
+    }
+   
+
+    
+    p,h2{
+        color:rgba(255, 255, 255,1)
+       
+    }
+   #nav2{
+    margin-left: 25%;
+    margin-top: 5%;
+   }
+  #content p {
+  margin-left: 20%;
+  text-indent: 5%;
+   margin-top: 0%;
+}
+
+.corner-btn{
+    position: relative;
+    margin-left: 23%;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+}
+.corner-btn::before ,
+.corner-btn::after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px solid aqua;
+}
+.corner-btn::before{
+    top:-5px;
+    left:-10px;
+    border-right: none;
+    border-bottom: none;
+}
+.corner-btn::after{
+    right:-5px;
+    bottom: -10px;
+    border-top: none;
+    border-left: none;
+}
+
+
+   #par{
+    font-size: 46px;
+    text-transform: uppercase;
+   }
+   #par1{
+     margin-top: 10% !important;
+     
+   }
+    #par {
+  position: relative;
+  z-index: 2;  /*makes text appear above the image */
+}
+#content2{
+    position: relative;
+     margin-left: 25%;
+  
+   margin-top: 10%;
+}
+.corner-btn2{
+     position: relative;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 1px;
+    letter-spacing: 2px;
+}
+.corner-btn2::before{
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    border: 2px solid aqua;
+   bottom:  -2px ;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+}
+#corner{
+      margin-left: 1% !important;
+}
+#content3{
+     position: absolute;
+     margin-left: 40%;
+     margin-top: 0%;
+     color: white;
+         
+   
+}
+#logo{
+    border: 3px solid aqua;
+    border-radius: 2px;
+    padding: 10px 10px;
+   
+}
+#videologo{
+    border: 3px solid aqua;
+    border-radius: 2px;
+    padding: 10px 10px;
+}
+#content4{
+    position: absolute;
+     margin-left: 70%;
+     margin-top: 0%;
+     color: white;
+}

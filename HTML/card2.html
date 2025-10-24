@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card2</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"  />
+    <style>
+        body{
+            background: rgba(237, 242, 250,1);
+
+        }
+      #box{
+        position: relative;
+        background-color: rgb(218, 216, 216)!important;
+        width: 600px;
+        height: 300px;
+        border-radius: 40px;
+        margin-top: 10%;
+        margin-left: 5%;
+      }
+      #icon{
+       position: absolute;
+        margin-left: 85%;
+        margin-top: 8%;
+        font-size: 46px;
+         background: linear-gradient(to right, red, blue);
+          background-clip: text;
+        -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      }
+      #par{
+        position: absolute;
+        margin-top: 8%;
+        margin-left: 5%;
+      }
+      #box p{
+        position: absolute;
+          margin-top: 25%;
+          margin-left: 5%;
+          
+      }
+    #par2{
+        position: absolute;
+    }
+    #par2::before{
+    content: '';
+  position: absolute;
+  width: 480px;              /* line width */
+  height: 4px;               /* line thickness */
+  bottom: -30px;             /* position below the element */
+  background: linear-gradient(to right, red, blue); /* red→blue line */
+  border-radius: 2px;  
+    }
+    #box1{
+         position: relative;
+        background-color: rgb(218, 216, 216)!important;
+        width: 600px;
+        height: 300px;
+        border-radius: 40px;
+        margin-top: 10%;
+        margin-left: 135%;
+    }
+        
+    </style>
+</head>
+<body>
+    
+        <div id="box">
+           <i id="icon" class="fa-solid fa-laptop-code"></i>
+         <h1 id="par">PROGRAMMING</h1>
+         <p id="par2">If you give the child position:absolute<br>
+       it is removed from the normal layout.<br>
+       That means the parent might collapse.</p>
+        <div id="box1">
+         <i id="icon"  class="fa-solid fa-shield-halved"></i>
+         <h1 id="par">SECURITY</h1>
+         <p id="par2">If you give the child position:absolute<br>
+       it is removed from the normal layout.<br>
+       That means the parent might collapse.</p>
+       </div> 
+        </div>
+</body>
+</html>

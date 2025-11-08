@@ -1,0 +1,126 @@
+ body{
+            background-color: plum;
+        }
+         .container {
+      display: flex;          /* Arrange items in a row */
+      justify-content: center; /* center horizontally */
+     
+      
+    }
+        .card{
+             
+            margin: 20px auto;
+            margin-top: 90px;
+           background: white;
+          width: 300px;
+           height: 550px;
+           border:2px solid black;
+           border-radius: 40px;
+          overflow: hidden; 
+    
+           
+          
+           
+        }
+        .hed{
+            text-align:center;
+            width: 100%;
+            height: 55%;
+            border: 1px solid red;
+            border-radius: 20px 20px 0px 180px;
+            background: linear-gradient(to right,white 1%, red 80%);
+             line-height: 300px;
+             color:white;
+             font-size: 50px;
+             
+ 
+        }
+       .pra{
+        text-align: center;
+       }
+       button{
+        margin-right:29px ; 
+        width: 200px;
+        border-radius: 20px;  
+        height: 40px;
+        color:white;
+        background-color: red;
+        margin-left: 18%;
+         background: linear-gradient(to right,white 1%, red 80%);
+
+       }
+       #purple{
+          background: linear-gradient(to right,white 1%, purple 80%);
+        border:1px solid purple;
+       }
+     #blue{
+        background: linear-gradient(to right,white 1%, blueviolet 80%);
+        border:1px solid blueviolet ;
+     }
+     #green{
+         background: linear-gradient(to right,white 1%, green 80%);
+        border:1px solid green;
+     }
+     #btn-color2{
+      background: linear-gradient(to right,white 1%, purple 80%);
+     }
+      #btn-color3{
+     background: linear-gradient(to right,white 1%, blueviolet 80%);
+     }
+   #btn-color4{
+        background: linear-gradient(to right,white 1%, green 80%);
+     }
+  #big-card {
+  height: 600px;           /* normal 550px -> now bigger */
+  transform: translateY(-30px); /* moves little upward */
+}
+/* 📱 Small devices (like mobile phones) */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: row;   /* keep in row */
+    flex-wrap: nowrap;     /* no line break */
+    justify-content: center;
+    overflow-x: auto;      /* enable horizontal scroll if too many cards */
+  }
+
+  .card {
+    width: 200px;          /* smaller width */
+    height: 400px;         /* smaller height */
+    margin: 10px;          /* smaller gap */
+    flex-shrink: 0;        /* prevent auto-resize */
+  }
+
+  .hed {
+    font-size: 25px;
+    line-height: 180px;
+  }
+
+  .pra h3 {
+    font-size: 18px;
+  }
+
+  .pra p {
+    font-size: 14px;
+  }
+
+  button {
+    width: 130px;
+    height: 35px;
+    font-size: 13px;
+  }
+}
+
+/* 💻 Medium devices (like tablets) */
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;         /* allow wrapping if needed */
+    justify-content: center;
+  }
+
+  .card {
+    width: 250px;
+    height: 480px;
+    margin: 15px;
+  }
+}

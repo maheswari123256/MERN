@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head><title>Bitwise AND</title></head>
+<body>
+  <script>
+    //Use & to find the bitwise AND of two numbers
+    let a = 2;   // (Binary: 0101)
+    let b = 5;   // (Binary: 0011)
+
+    let result = a & b;  // Bitwise AND
+    document.write("a & b = " + result);
+    document.write("<br>")
+    //Use | to find the bitwise OR of two numbers
+    let c=8;
+    let d=10;
+    let result2=c|d;
+    document.write("a | b = " + result2);
+    document.write("<br>")
+   //Use ^ to find the bitwise XOR of two numbers
+   let a1 = 5;   // 0101
+   let b1 = 3;   // 0011
+   let result3 = a1 ^ b1;  // Bitwise XOR
+   document.write("a1 ^ b1 = " + result3);
+   document.write("<br>")
+   //Perform a Left Shift (<<) and Right Shift (>>) on a number
+   let x=5;
+   let leftsift=x<<3;
+   let rightsift=x>>2;
+   document.write("Left shift(x<<2)="+leftsift+"<br>");
+   document.write("right shift(x>>2)="+rightsift+"<br>")
+    document.write("<br>")
+    //Combine Bitwise and Logical Operators
+    let a5 = 5;   // binary: 0101
+let b5 = 2;   // binary: 0011
+let c5 = 13;   // binary: 0111
+                                                                                 
+// Combine bitwise AND (&) with logical AND (&&)
+if ((a5 & b5) && (b5 < c5)) {
+  document.write("Condition is TRUE");
+} else {
+  document.write("Condition is FALSE");
+}
+document.write("<br>")
+let num2=-1;
+let num3=5;
+let result5=num2&&num3;
+document.write(result5)
+  </script>
+</body>
+</html>

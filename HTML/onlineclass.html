@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online class</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Mea+Culpa&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        body{
+            width: 100%;
+        }
+        .side{
+            position: relative;
+            background-color: rgb(255, 0, 43);
+            height: 110vh;
+            width: 100px;
+            margin-left: 0px;
+        }
+        .socials{
+            margin-top: 500px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            font-size: x-large;
+            color: white;
+            margin-left: 30px;
+            
+        }
+        .logo{
+            font-size: x-large;
+            color: white;
+            margin-left: 30px;
+        }
+        .top{
+            
+            display: flex;
+            flex-direction: row;
+            position: absolute;
+            left: 130px;
+            bottom: 680px;
+            margin-left: 36px;
+        
+        }
+        .navbar{
+            position: relative;
+        }
+        
+        .plan{
+            position: absolute;
+            left: 250px;
+        }
+        .contact{
+            position: absolute;
+            left: 450px;
+        }
+        .button{
+            position: absolute;
+            left: 660px;
+            border-radius: 25px;
+            width: 230px;
+            padding: 7px 15px;
+            color:  rgba(0, 0, 0, 0.522);
+            background-color: rgb(227, 227, 227);
+            border: none;
+        }
+        .button i{
+            color:  rgba(0, 0, 0, 0.522);
+        }
+        .sign{
+            position: absolute;
+            left: 950px;
+        }
+        .log{
+           position: absolute;
+            left: 1200px; 
+            border: 2px solid;
+            border-radius: 25px;
+            padding: 10px 50px;
+            background-color: rgb(255, 0, 43); 
+            width: 300px;
+            border: none;
+        }
+        
+        .log i{
+            color: white;
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            left: 130px;
+            bottom: 150px;
+        }
+        .welcome{
+            font-family: "Poppins", sans-serif;
+            font-weight: 900;
+            font-style: normal;
+            font-size: 52px;
+            color: rgb(1, 1, 55);
+        }
+        .mail{
+            border-radius: 25px;
+            padding: 10px 30px;
+            width: 400px;
+            vertical-align: middle;
+            background-color: rgb(227, 227, 227);
+            border: none;
+        }
+        .buttons{
+            border-radius: 25px;
+            padding: 10px 30px;
+            width: 470px;
+            vertical-align: middle;
+            background-color: rgb(255, 0, 43);
+            border: none;
+            color: white;
+            font-size: 14px;
+        }
+        .cls{
+         text-decoration: underline;
+         text-decoration-color:rgb(255, 0, 43); ;
+        }
+        .navbar a{
+            text-decoration: none;
+            color: black;
+            font-size: larger;
+        }
+        
+        .circle1{
+            position: relative;
+            left: 670px;
+            bottom: 700px;
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background-color: rgb(255, 0, 43);
+        }
+        .circle2{
+            position: relative;
+            left: 840px;
+            bottom: 740px;
+            width: 450px;
+            height: 450px;
+            border-radius: 50% 0 50% 50%;
+            background-color: rgb(255, 0, 43);
+        }
+        .circle3{
+            
+            position: relative;
+            left: 750px;
+            bottom: 960px;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: aqua;
+        }
+        .circle4{
+            
+            position: relative;
+            left: 880px;
+            bottom: 890px;
+            width: 290px;
+            height: 120px;
+            border-radius: 20px 0px 0px 0px;
+            background-color: rgb(235, 159, 93);
+        }
+        .circle5{
+            
+            position: relative;
+            left: 1170px;
+            bottom:1020px;
+            width: 120px;
+            height: 120px;
+            border-radius: 60px 0px 60px 60px;
+            background-color: rgb(240, 240, 35);
+        }
+        .circle6{
+            
+            position: relative;
+            left: 1290px;
+            bottom: 1580px;
+            width: 140px;
+            height: 140px;
+            border-radius: 0px 70px 70px 70px;
+            background-color: rgb(240, 240, 35);
+        }
+        .circle7{
+            
+            position: relative;
+            left: 1290px;
+            bottom: 1580px;
+            width: 140px;
+            height: 450px;
+            border-radius: 70px 0px 0px 00px;
+            background-color: aqua;
+        }
+        .circle{
+            position: relative;
+            left: 100px;
+        }
+        .image img{
+            position: relative;
+            bottom: 2100px;
+            left: 1010px;
+            height: 260px;
+            width: 350px;
+        }
+        
+    </style>
+</head>
+<body>
+    <aside>
+    <div class="side">
+        <div class="logo">
+            <i class="fa-solid fa-fan"></i>
+        </div>
+        <div class="socials">
+            <i  class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+    
+    </aside>
+    <div class="top">
+        <nav class="navbar">
+            <a class="all"  href="#">All categories</a>
+            <a class="plan"  href="#">plan</a>
+            <a class="contact"  href="#">contact</a>
+            <button class="button">Search....<i class="fa-solid fa-magnifying-glass"></i></button>
+            <a class="sign" href="#">sign&nbsp;up</a>
+            <a class="log" href="#" style="color: white;"><i class="fa-solid fa-circle-user"></i> Log&nbsp;in</a>
+        </nav>
+    </div>
+    <div class="main"> 
+       <h1 class="welcome">Welcome To Our <br>Online <span class="cls">Classes.</span></h1>
+       <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolor, in eum saepe accusantium,<br> veniam veritatis ut aspernatur quisquam sit vitae porro aliquid architecto debitis cumque,<br> nisi libero non pariatur!</p> 
+
+            <input type="email" class="mail" placeholder="Your email address">
+            <br>
+            <button class="buttons">Sign up</button>
+            <br>
+            <span><input type="checkbox">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Vel voluptatem accusantium hic nihil fuga atque. </span>
+       
+    </div>
+    <div class="circle">
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="circle3"></div>
+    <div class="circle4"></div>
+    <div class="circle5"></div>
+    <div class="circle6"></div>
+    <div class="circle7"></div>
+    </div>
+    <div class="image">
+        <img src="asset/img/bts2.jpg" alt="">  
+     </div>
+</body>
+</html>

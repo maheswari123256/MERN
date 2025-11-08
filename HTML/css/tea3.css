@@ -1,0 +1,101 @@
+body {
+    background: url('/asset/img/ai-generated-black-tea-advertisment-background-with-copy-space-free-photo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --pink:#e84393;
+}
+
+*{
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+header{
+    position: fixed;
+    top:0; left:0; right:0;
+    background: #fff;
+    padding: 2rem 9%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+header .logo{
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;
+}
+header .logo span{
+    color:var(--pink);
+}
+header .navbar a{
+    font-size: 2rem;
+    padding:0 1.5rem ;
+    color: #666;
+}
+header .navbar a:hover{
+    color: #333;
+}
+h3{
+    color: #39ff14;
+    margin-left:3%;
+    font-size: 26px;
+
+}
+pre{
+     color: white;
+    margin-left:4%;
+    font-size: 16px;
+}
+.container-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; /* spaces items evenly */
+  flex-wrap: nowrap; /* prevents wrapping to the next line */
+}
+.container3{
+    margin-top: 4%;
+    margin-left: 5%;
+    border: 2px solid #39ff14;
+    border-radius: 40px;
+    width: 400px;
+    text-align: center;
+}
+.container3:hover{
+    transform: scale(1.05);
+    box-shadow:0 10px 20px  rgba(57, 255, 20,1) ;
+}
+.container3 img {
+  width: 100px;
+  height: 170px;
+  border-radius: 20%;
+  margin-top: 2%;
+}
+button{
+    margin-top: 8%;
+    margin-left: 45%;
+    width: 200px;
+    height: 50px;
+    border-radius: 10%;
+    border: 2px solid #39ff14;
+    color: #fff;
+}
+button:hover{
+    background-color: green;
+    color: white;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+   //Check if a number is between 10 and 50 using logical AND (&&).     
+    var a = 25;
+
+    if (a >= 10 && a <= 50) {
+      document.write(a + " is between 10 and 50");
+    } else {
+      document.write(a + " is NOT between 10 and 50");
+    }
+    document.write("<br>");
+   // Check if a number is less than 10 OR greater than 100 using ||.
+    var a = 25; // you can change this number
+
+    if (a < 10 || a > 100) {
+      document.write(a + " is less than 10 OR greater than 100");
+    } else {
+      document.write(a + " is between 10 and 100");
+    }
+    document.write("<br>");
+    //Use NOT (!) to invert a Boolean value.
+    let loggedIn = false;
+
+if (!loggedIn) {
+  console.log("Please log in!"); 
+  document.write("Please log in!") // This will run because loggedIn is false
+} else {
+  console.log("Welcome back!");
+  document.write("Welcome back!")
+}
+  document.write("<br>");
+  //19. Combine && and || in one statement to test a complex condition.
+    let age =18;
+    let hasID = true;
+    let isVIP = false;
+
+    // Complex condition:
+    // Person is allowed if (age >= 18 AND has ID) OR is VIP
+    if ((age >= 18 && hasID) || isVIP) {
+      document.write("Access granted ✅");
+    } else {
+      document.write("Access denied ❌");
+    }
+     document.write("<br>");
+    //20. Check if a student passes (marks ≥ 35) using logical operators.
+     let marks = 40; // you can change this value to test
+
+    // Check if marks are greater than or equal to 35
+    if (marks >= 35) {
+      document.write("🎉 Student passed the exam!");
+    } else {
+      document.write("❌ Student failed the exam.");
+    }
+    </script>
+    
+</body>
+</html>

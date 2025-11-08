@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head><title>Even or Odd</title></head>
+<body>
+  <script>
+    //Check if a number is even or odd using the ternary operator
+    let num = 6;
+    let result = (num % 2 === 0) ? "Even number" : "Odd number";
+    document.write("Number: " + num + " → " + result);
+    //odd number
+    document.write("<br>");
+   let num1 = 7; // you can change this number
+
+    // Ternary operator to check odd number
+    let result1 = (num1 % 2 !== 0) ? "It is an Odd Number" : "It is an Even Number";
+
+    document.write("Number: " + num1 + "<br>");
+    document.write(result1);
+     document.write("<br>");
+     //Use the ternary operator to find the greater number between two variables
+     let a=55,b=25;
+     let greater=(a>b)?a:b;
+     document.write("Greater number is"+greater);
+      document.write("<br>");
+     // One-line ternary statement to check if a person can vote (age ≥ 18)
+     let age=9;
+     document.write(age>=18?"Eligible to vote":"Not eligible to vote");
+     document.write("<br>");
+     //Nested ternary to find if a number is positive, negative, or zero
+     let num2 = -2;
+    let result2 = (num2 > 0) ? "Positive" : (num2 < 0) ? "Negative" : "Zero";
+    document.write("Number is: " + result2);
+    document.write("<br>");
+    //Check whether a string is empty or not using the ternary operator
+    let str = "apple";
+    let result3 = (str === "") ? "String is empty" : "String is not empty";
+    document.write(result3);
+
+  </script>
+</body>
+</html>

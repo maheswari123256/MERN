@@ -1,0 +1,190 @@
+body {
+    background: url('/asset/img/ai-generated-black-tea-advertisment-background-with-copy-space-free-photo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --pink:#e84393;
+}
+
+*{
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+header{
+    position: fixed;
+    top:0; left:0; right:0;
+    background: #fff;
+    padding: 2rem 9%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+header .logo{
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;
+}
+header .logo span{
+    color:var(--pink);
+}
+header .navbar a{
+    font-size: 2rem;
+    padding:0 1.5rem ;
+    color: #666;
+}
+header .navbar a:hover{
+    color: #333;
+}
+.img-box {
+  position: relative;
+  filter: drop-shadow(15px 15px 10px rgb(165, 42, 42));
+  margin-right: 5%;
+  float: right; 
+  z-index: 1;
+}
+
+pre{
+    position: relative;
+    margin-top: 2%;
+    margin-left: 5%;
+    font-size: 12px;
+    z-index: 2;
+}
+h2{
+    word-spacing: 2px;
+    font-size: 36px;
+    margin-left: 5%;
+}
+h2 span{
+    color: green;
+}
+button{
+    width: 120px;
+    height: 40px;
+    margin-top: 5%;
+    margin-left: 5%;
+    border: 2px solid green;
+    border-radius: 5px;
+    color:green;
+
+}
+button:hover{
+    background-color: green;
+    color: white;
+}
+.shapes::before,.shapes::after{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+}
+.shapes::before{
+    width:70px;
+    height: 70px;
+    background: #00c2cb;
+    top:50px;
+    left:-60px;
+}
+.shapes::after {
+  width: 60px;
+  height: 60px;
+  background: white;
+  bottom: -10px;
+  right: 0;
+  border-radius: 15px;
+}
+.diamond {
+  margin-left: 70%;  
+  width: 50px;
+  height: 50px;
+  border:2px solid rgb(53, 236, 53);
+  transform: rotate(45deg);
+ 
+}
+.diamond1 {
+  margin-left: 70%;  
+  width: 50px;
+  height: 50px;
+  border:2px solid rgb(53, 236, 53);
+  transform: rotate(45deg);
+ }
+ #truck{
+    color: green;
+    border: 2px solid #39ff14;
+    border-radius: 20% 0 20% 0%;
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    margin-left: 10%;
+    font-size: 46px;
+   
+    
+ }
+ h3{
+
+    margin-top: 15%;
+    font-size: 16px;
+    color: #00ffff;
+ }
+ p{
+    color:white;
+    font-size:15px;
+    margin-top: 15%;
+ }
+ .container{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+ }
+ 
+.container2 {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin-top: 8%;
+}
+
+.container2 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 600px;
+  transition: opacity 0.5s;
+  border-radius: 30px;
+  margin-left: 20%;
+}
+
+/* Optional: to control visibility or hover effect */
+.img1 { opacity: 1; }
+.img2 { opacity: 0.7; }
+.img3 { opacity: 0.5; }
+.about{
+    margin-left: 160%;
+    color: green;
+}
+#pre1
+{
+    margin-left: 160%;
+    margin-top: 5%;
+    color: white;
+    font-size: 16px;
+    word-spacing: 10px;
+
+}

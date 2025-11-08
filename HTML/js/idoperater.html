@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head><title>Increment Example</title></head>
+<body>
+  <script>
+    //Create a counter that increases by 1 using ++.
+    let counter = 1;
+    counter++;  // increases by 1
+    document.write("Counter value after increment: " + counter);
+    document.write("<br>")
+
+    //Write a program that decreases a variable using --
+    let counter1=10;
+    counter1--;
+    document.write("Counter value after decreases:"+counter1)
+     document.write("<br>")
+
+     //Demonstrate the difference between pre-increment (++x) and post-increment (x++)
+      let x = 5;
+
+    document.write("Original value of x = " + x + "<br>");
+
+    document.write("Pre-increment (++x) = " + (++x) + "<br>");
+    // x becomes 6 first, then printed
+
+    x = 9; // reset value
+
+    document.write("Post-increment (x++) = " + (x++) + "<br>");
+    // prints 5 first, then x becomes 6
+
+    document.write("<br>")
+
+    //Show how decrement works in a loop from 10 to 1
+    for(let i=10;i>=1;i++){
+      document.write(i+"<br>");
+    }
+     document.write("<br>")
+
+     //Use ++ and -- in the same expression and observe the result
+      let a = 8;
+    let result = ++a - a--;
+    document.write("Result: " + result + "<br>");
+    document.write("Final value of a: " + a);
+
+  </script>
+</body>
+</html>

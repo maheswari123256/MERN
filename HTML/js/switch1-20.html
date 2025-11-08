@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*1. Check Positive or Negative Number
+Input a number. Print “Positive” if greater than 0, else “Negative”.*/
+let num=prompt("enter a number:");
+switch(true){
+case(num>0):
+document.write("positive");
+break;
+case(num<0):
+document.write("negative");
+break;
+default:
+document.write("zero");
+break;    
+}
+document.write("<br>")
+document.write("<br>")
+/*2. Check Even or Odd
+Input a number. Print “Even” if divisible by 2, else “Odd”.
+*/
+let num1=55;
+switch(true){
+    case(num1%2==0):
+    document.write("Even");
+    break;
+    default:
+    document.write("Odd");    
+}
+document.write("<br>")
+document.write("<br>")
+/*3. Check Voting Eligibility
+Input an age. Print “Eligible to Vote” if age ≥ 18, else “Not Eligible”.*/
+let age=10;
+switch(true){
+    case(age>=18):
+    document.write("Eligible to Vote");
+    break;
+    default:
+    document.write("Not eligible")    
+}
+document.write("<br>")
+document.write("<br>")
+/*4. Check Data Type
+Declare a variable and check if it’s a number, string, or boolean using
+typeof.*/
+let value=78;
+switch(typeof value){
+    case"string":
+    document.write("It is a string")
+    break;
+    case"number":
+    document.write("It is a number");
+    break;
+    case"boolean":
+    document.write("It is a boolean");
+    break;
+    default:
+    document.write("unknown type");    
+}
+document.write("<br>")
+document.write("<br>")
+/*Check Greater Number
+Input two numbers. Print which one is greater.*/
+let a=450;
+let b=67;
+switch(true){
+    case(a>b):
+    document.write("a is greater");
+    break;
+    case(b>a):
+    document.write("b is greater")
+}
+document.write("<br>")
+document.write("<br>")
+/*6. Compare Two Strings
+Input two string variables and check if they are equal or not.*/
+let name="mahes"
+let name1= "mahes";
+switch(true){
+case(name===name1):
+document.write("equal");
+break;
+default:
+document.write("not equal");    
+}
+document.write("<br>")
+document.write("<br>")
+/*7. Check Multiples of 5
+Input a number. Print “Multiple of 5” if it’s divisible by 5.*/
+let num2=67;
+switch(true){
+    case(num2%5==0):
+    document.write("Multiple of 5");
+    break;
+    default:
+    document.write("not Multiple of 5")    
+}
+document.write("<br>")
+document.write("<br>")
+/*8. Check if a Number is Zero
+If number === 0 → print “Zero”, else print “Not Zero”.*/
+let num3=0;
+switch(true){
+    case(num3===0):
+    document.write("zero");
+    break;
+    default:
+    document.write("not zero")    
+}
+document.write("<br>")
+document.write("<br>")
+/*9. Check Marks Pass/Fail
+If marks ≥ 35 → “Pass”, else → “Fail”.*/
+let mark=5;
+switch(true){
+    case(mark>=35):
+    document.write("pass");
+    break;
+    default:
+    document.write("fail")    
+}
+document.write("<br>")
+document.write("<br>")
+/*10.Temperature Check
+If temp < 20 → “Cold”, temp 20–30 → “Warm”, else → “Hot”.*/
+let temp=30;
+switch(true){
+    case(temp<20):
+    document.write("cold");
+    break;
+    case(temp>=20&&temp<=30): 
+    document.write("warm");
+    break;
+    default:
+    document.write("hot");    
+}
+document.write("<br>")
+document.write("<br>")
+/*11.Find Largest of Three Numbers
+Input three numbers and print the largest one.*/
+let a1=780;
+let b1=4;
+let c1=670;
+switch(true){
+    case(a1>b1&&a1>c1): 
+    document.write("a is greater");
+    break;
+    case(b1>a1&&b1>c1): 
+    document.write("b is greater");
+    break;
+    default:
+    document.write("c is greater")    
+}
+document.write("<br>")
+document.write("<br>")
+/*12.Check Leap Year
+If year divisible by 4 and not by 100, or divisible by 400 → “Leap Year”.*/
+let year=2000;
+switch(true){
+    case((year%4==0&&year%100!=0)||(year%400==0)): 
+    document.write("this is leap year");
+    break;
+    default:
+    document.write("this not is leap year");  
+}
+document.write("<br>")
+document.write("<br>")
+/*13.Check Character Type
+Input a character. Check if it’s a vowel, consonant, number, or special
+symbol.*/
+let ch=prompt("enter a character:");
+switch(true){
+    case(ch=='a'||ch=='e'||ch=='i'||ch=="o"||ch=="u"||ch=="A"||ch=="E"||ch=="I"||ch=="O"||ch=="U"):
+    document.write("vowel");
+    break;
+    case((ch>='a'&&ch<="z")||(ch>='A'&&ch<='Z')): 
+    document.write("consonant");
+    break;
+    case(ch>='0'&&ch<='9'): 
+    document.write("number");
+    break;
+    default:
+    document.write("special symbol")    
+
+}
+document.write("<br>")
+document.write("<br>")
+/*14.Check Login Credentials
+If username === "admin" and password === "1234" → print “Login
+Success”, else “Invalid Credentials”.*/
+let username=prompt("enter a username");
+let password=prompt("enter a password");
+switch(true){
+    case(username==="admin"&&password==="1234"): 
+    document.write("login success");
+    break;
+    default:
+    document.write("Invalid Credentials")    
+}
+document.write("<br>")
+document.write("<br>")
+/*15.Check Grade
+If marks ≥ 90 → “A”, ≥ 80 → “B”, ≥ 70 → “C”, else “Fail”.*/
+let marks = parseInt(prompt("Enter your marks:"));
+
+switch (true) {
+  case (marks >= 90):
+    document.write("Grade: A");
+    break;
+
+  case (marks >= 80):
+    document.write("Grade: B");
+    break;
+
+  case (marks >= 70):
+    document.write("Grade: C");
+    break;
+
+  default:
+    document.write("Grade: Fail");
+}
+document.write("<br>")
+document.write("<br>")
+/*16.Check Number Sign and Parity
+Input a number.
+If positive & even → “Positive Even”,
+If positive & odd → “Positive Odd”,
+If negative → “Negative Number”.*/
+let num8 = parseInt(prompt("Enter a number:"));
+
+switch (true) {
+  case (num8 > 0 && num8 % 2 === 0):
+    document.write("Positive Even");
+    break;
+
+  case (num8 > 0 && num8 % 2 !== 0):
+    document.write("Positive Odd");
+    break;
+
+  case (num8 < 0):
+    document.write("Negative Number");
+    break;
+
+  default:
+    document.write("Number is Zero");
+}
+document.write("<br>")
+document.write("<br>")
+/*17.Check Data Type and Value
+If variable is a string and not empty → print “Valid String”, else →
+“Invalid”.*/
+let value1 = "Mahes"; // you can change this value to test
+
+switch (true) {
+  case (typeof value1 === "string" && value1 !== ""):
+    document.write("Valid String");
+    break;
+
+  default:
+    document.write("Invalid");
+}
+document.write("<br>")
+document.write("<br>")
+/*18.Discount Calculation
+If price > 500 → 10% discount, else if > 1000 → 20%, else → “No
+discount”.*/
+let price = 1200; // You can change this value
+
+switch (true) {
+  case (price > 1000):
+    document.write("20% Discount");
+    break;
+
+  case (price > 500):
+    document.write("10% Discount");
+    break;
+
+  default:
+    document.write("No Discount");
+}
+document.write("<br>")
+document.write("<br>")
+/*19.Compare Two Numbers (Equal or Not)
+If equal using ==, check again using === and explain difference.*/
+let a9 = "10";
+let b9 = 10;
+
+switch (true) {
+  case (a9 == b9):
+    document.write("a and b are Equal using == (value same)<br>");
+    // Check again using ===
+    if (a9 === b9) {
+      document.write("Also Equal using === (value and type same)");
+    } else {
+      document.write("Not Equal using === (type different)");
+    }
+    break;
+
+  default:
+    document.write("a and b are Not Equal");
+}
+document.write("<br>")
+document.write("<br>")
+/*20.Simple Calculator Using If-Else
+Declare variables num1, num2, operator.
+If operator is +, -, *, /, perform respective operation.*/
+let num11 = 10;
+let num21 = 5;
+let operator = "+"; // You can change this to -, *, /
+
+if (operator == "+") {
+  document.write("Addition = " + (num11 + num21));
+} 
+else if (operator == "-") {
+  document.write("Subtraction = " + (num11 - num21));
+} 
+else if (operator == "*") {
+  document.write("Multiplication = " + (num11 * num21));
+} 
+else if (operator == "/") {
+  document.write("Division = " + (num11 / num21));
+} 
+else {
+  document.write("Invalid Operator");
+}
+
+
+    </script>
+</body>
+</html>

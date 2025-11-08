@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //1. Print numbers from 1 to 10.
+        let i=1;
+        while(i<=10){
+         document.write(i+"<br>")
+            i++;
+        }
+
+    //2. Calculate the sum of digits of a number.
+    let num=1234;
+    let sum=0;
+    while(num>0){
+        let digit=num%10;
+        sum=sum+digit;
+        num=Math.floor(num/10);//remove last digit
+    }
+    document.write("sum of digits:"+sum);
+
+   
+/*let input;
+
+for (; input !== "stop"; ) {
+  input = prompt("ஏதாவது type பண்ணுங்க (முடிக்க 'stop' என்று type பண்ணவும்):");
+  console.log("நீங்கள் type செய்தது:", input);
+}
+
+console.log("Loop முடிந்தது!");
+
+for (let i = 1; i <= 3; i++) {
+  let name = "";
+  let confirm = "no";
+
+  // user name கேட்கும்
+  name = prompt("Person " + i + " - உங்க பெயர் சொல்லுங்க:");
+
+  // confirmation while loop
+  while (confirm !== "yes") {
+    confirm = prompt("உங்க பெயர் '" + name + "' சரியா? (yes/no):");
+  }
+
+  console.log("✅ Person " + i + " name confirmed:", name);
+}
+
+console.log("எல்லா பெயர்களும் பெறப்பட்டுவிட்டது!");*/
+//Print all numbers divisible by 3 between 1 and 50.
+let a=0;
+while(a<=50){
+    if(a%3==0){
+      
+        document.write(+a+"<br>")
+        
+    }
+    a++;
+}
+//4. Find the factorial of a number.
+
+let num2=5;
+let fact=1;
+let k=1;
+while(k<=num2){
+    fact=fact*k;
+    k++
+}
+document.write("The factorial of"+num2+"is:"+fact);
+//Reverse a number (e.g., 123 → 321).
+let num3 = 123;      // original number
+let rev = 0;        // reversed number initially 0
+
+while (num3 > 0) {
+  let digit = num3 % 10;        // last digit எடுத்தல்
+  rev = rev * 10 + digit;      // reverse number update
+  num3 = Math.floor(num3 / 10);  // last digit remove
+}
+
+document.write("Reversed number is: " + rev);
+//6. Print the Fibonacci series up to 10 terms.
+let n=10;
+let n1=0,n2=1;
+let j=1;
+console.log("fibonacci series:");
+while(j<=n){
+    console.log(n1);
+    let next=n1+n2;
+    n1=n2;
+    n2=next;
+    j++;
+   
+}
+
+ //7. Count how many digits are in a number.
+
+let num9 = 12345;   // Example number
+let count = 0;     // Digit count initially 0
+
+while (num9 > 0) {
+  num9 = Math.floor(num9 / 10);  // remove last digit
+  count++;                     // increase count
+}
+
+console.log("Number of digits:", count);
+//8. Find the largest digit in a number.
+let num10 = 58329;    // Example number
+let largest = 0;    // Initially assume 0 as largest
+
+while (num10 > 0) {
+  let digit = num10 % 10;     // get last digit
+  if (digit > largest) {    // check if greater
+    largest = digit;
+  }
+  num10 = Math.floor(num10 / 10);  // remove last digit
+}
+
+console.log("Largest digit is:", largest);
+//9. Print all elements of an array using a while loop.
+let arr=[5,10,15,20,25];
+let l=0;
+console.log("array elements:");
+while(l<arr.length){
+    console.log(arr[l]);
+    l++;
+}
+//10. Keep asking for input until the user enters "stop".
+let name="";
+
+while(name!=="stop"){
+    name=prompt("Enter something(type'stop'to end):");
+    console.log("you entered:",input);
+
+}
+console.log("program ended!");
+//DO...WHILE Loop Tasks
+let input = "";  // to store user input
+
+while (input !== "stop") {
+  input = prompt("Enter something (type 'stop' to end):");
+  console.log("You entered:", input);
+}
+
+console.log("Program ended!");
+
+
+    </script>
+</body>
+</html>
